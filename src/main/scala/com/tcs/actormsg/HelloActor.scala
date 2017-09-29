@@ -4,6 +4,9 @@ import akka.actor.{Actor, ActorSystem, Props}
 
 case class Greeting(msg:String,name:String)
 
+/**
+  * greeting Test
+  */
 class HelloActor extends Actor {
 
   def receive = {
